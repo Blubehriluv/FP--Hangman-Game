@@ -336,11 +336,6 @@ namespace Hangman
             }
         }
 
-        private void hangmanGame_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void hintButton_Click(object sender, EventArgs e)
         {
             hintBox.Text = hint;
@@ -352,13 +347,25 @@ namespace Hangman
 
         private void buttonA_Click(object sender, EventArgs e)
         {
-
-            if (theWord == "computer")
+            if (theWord == "gamer")
             {
-                //if ()
-                {
+                letter2.Text = "A";
+            }
 
-                }
+            if (theWord == "programmer")
+            {
+                letter6.Text = "A";
+            }
+
+            if (theWord == "hangman")
+            {
+                letter2.Text = "A";
+            }
+
+            if (theWord == "arizona")
+            {
+                letter1.Text = "A";
+                letter7.Text = "A";
             }
         }
     }

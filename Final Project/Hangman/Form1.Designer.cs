@@ -68,6 +68,16 @@
             this.line10 = new System.Windows.Forms.Label();
             this.hintButton = new System.Windows.Forms.Button();
             this.hintBox = new System.Windows.Forms.Label();
+            this.letter1 = new System.Windows.Forms.Label();
+            this.letter2 = new System.Windows.Forms.Label();
+            this.letter3 = new System.Windows.Forms.Label();
+            this.letter4 = new System.Windows.Forms.Label();
+            this.letter5 = new System.Windows.Forms.Label();
+            this.letter6 = new System.Windows.Forms.Label();
+            this.letter7 = new System.Windows.Forms.Label();
+            this.letter8 = new System.Windows.Forms.Label();
+            this.letter9 = new System.Windows.Forms.Label();
+            this.letter10 = new System.Windows.Forms.Label();
             this.letterChoices.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -411,7 +421,7 @@
             // 
             this.line1.AutoSize = true;
             this.line1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.line1.Location = new System.Drawing.Point(27, 1035);
+            this.line1.Location = new System.Drawing.Point(23, 1035);
             this.line1.Name = "line1";
             this.line1.Size = new System.Drawing.Size(132, 55);
             this.line1.TabIndex = 3;
@@ -526,12 +536,112 @@
             this.hintBox.Size = new System.Drawing.Size(0, 32);
             this.hintBox.TabIndex = 14;
             // 
+            // letter1
+            // 
+            this.letter1.AutoSize = true;
+            this.letter1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter1.Location = new System.Drawing.Point(77, 984);
+            this.letter1.Name = "letter1";
+            this.letter1.Size = new System.Drawing.Size(0, 36);
+            this.letter1.TabIndex = 15;
+            // 
+            // letter2
+            // 
+            this.letter2.AutoSize = true;
+            this.letter2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter2.Location = new System.Drawing.Point(211, 984);
+            this.letter2.Name = "letter2";
+            this.letter2.Size = new System.Drawing.Size(0, 36);
+            this.letter2.TabIndex = 16;
+            // 
+            // letter3
+            // 
+            this.letter3.AutoSize = true;
+            this.letter3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter3.Location = new System.Drawing.Point(306, 966);
+            this.letter3.Name = "letter3";
+            this.letter3.Size = new System.Drawing.Size(0, 36);
+            this.letter3.TabIndex = 17;
+            // 
+            // letter4
+            // 
+            this.letter4.AutoSize = true;
+            this.letter4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter4.Location = new System.Drawing.Point(447, 966);
+            this.letter4.Name = "letter4";
+            this.letter4.Size = new System.Drawing.Size(0, 36);
+            this.letter4.TabIndex = 18;
+            // 
+            // letter5
+            // 
+            this.letter5.AutoSize = true;
+            this.letter5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter5.Location = new System.Drawing.Point(566, 956);
+            this.letter5.Name = "letter5";
+            this.letter5.Size = new System.Drawing.Size(0, 36);
+            this.letter5.TabIndex = 19;
+            // 
+            // letter6
+            // 
+            this.letter6.AutoSize = true;
+            this.letter6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter6.Location = new System.Drawing.Point(683, 984);
+            this.letter6.Name = "letter6";
+            this.letter6.Size = new System.Drawing.Size(0, 36);
+            this.letter6.TabIndex = 20;
+            // 
+            // letter7
+            // 
+            this.letter7.AutoSize = true;
+            this.letter7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter7.Location = new System.Drawing.Point(808, 984);
+            this.letter7.Name = "letter7";
+            this.letter7.Size = new System.Drawing.Size(0, 36);
+            this.letter7.TabIndex = 21;
+            // 
+            // letter8
+            // 
+            this.letter8.AutoSize = true;
+            this.letter8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter8.Location = new System.Drawing.Point(918, 956);
+            this.letter8.Name = "letter8";
+            this.letter8.Size = new System.Drawing.Size(0, 36);
+            this.letter8.TabIndex = 22;
+            // 
+            // letter9
+            // 
+            this.letter9.AutoSize = true;
+            this.letter9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter9.Location = new System.Drawing.Point(1045, 987);
+            this.letter9.Name = "letter9";
+            this.letter9.Size = new System.Drawing.Size(0, 36);
+            this.letter9.TabIndex = 23;
+            // 
+            // letter10
+            // 
+            this.letter10.AutoSize = true;
+            this.letter10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter10.Location = new System.Drawing.Point(1156, 987);
+            this.letter10.Name = "letter10";
+            this.letter10.Size = new System.Drawing.Size(0, 36);
+            this.letter10.TabIndex = 24;
+            // 
             // hangmanGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1962, 1469);
+            this.Controls.Add(this.letter10);
+            this.Controls.Add(this.letter9);
+            this.Controls.Add(this.letter8);
+            this.Controls.Add(this.letter7);
+            this.Controls.Add(this.letter6);
+            this.Controls.Add(this.letter5);
+            this.Controls.Add(this.letter4);
+            this.Controls.Add(this.letter3);
+            this.Controls.Add(this.letter2);
+            this.Controls.Add(this.letter1);
             this.Controls.Add(this.hintBox);
             this.Controls.Add(this.hintButton);
             this.Controls.Add(this.line10);
@@ -549,7 +659,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "hangmanGame";
             this.Text = "Hangman Game";
-            this.Load += new System.EventHandler(this.hangmanGame_Load);
             this.letterChoices.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -598,6 +707,16 @@
         private System.Windows.Forms.Label line10;
         private System.Windows.Forms.Button hintButton;
         private System.Windows.Forms.Label hintBox;
+        private System.Windows.Forms.Label letter1;
+        private System.Windows.Forms.Label letter2;
+        private System.Windows.Forms.Label letter3;
+        private System.Windows.Forms.Label letter4;
+        private System.Windows.Forms.Label letter5;
+        private System.Windows.Forms.Label letter6;
+        private System.Windows.Forms.Label letter7;
+        private System.Windows.Forms.Label letter8;
+        private System.Windows.Forms.Label letter9;
+        private System.Windows.Forms.Label letter10;
     }
 }
 
