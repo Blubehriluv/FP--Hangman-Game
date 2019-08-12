@@ -48,9 +48,307 @@ namespace Hangman
             yPresent,
             zPresent;
 
+        private void buttonZ_Click(object sender, EventArgs e)
+        {
+            if (theWord == "arizona")
+            {
+                letter4.Text = "Z";
+            }
+        }
+
+        private void buttonY_Click(object sender, EventArgs e)
+        {
+            if (theWord == "technology")
+            {
+                letter10.Text = "Y";
+            }
+        }
+
+        private void buttonV_Click(object sender, EventArgs e)
+        {
+            if (theWord == "novelo")
+            {
+                letter3.Text = "V";
+            }
+        }
+
+        private void buttonT_Click(object sender, EventArgs e)
+        {
+            if (theWord == "computer")
+            {
+                letter6.Text = "T";
+            }
+            if (theWord == "semester")
+            {
+                letter6.Text = "T";
+            }
+            if (theWord == "tech")
+            {
+                letter1.Text = "T";
+            }
+        }
+
+        private void buttonS_Click(object sender, EventArgs e)
+        {
+            if (theWord == "semester")
+            {
+                letter1.Text = "S";
+                letter5.Text = "S";
+            }
+        }
+
+        private void buttonR_Click(object sender, EventArgs e)
+        {
+            if (theWord == "gamer")
+            {
+                letter5.Text = "R";
+            }
+            if (theWord == "computer")
+            {
+                letter8.Text = "R";
+            }
+            if (theWord == "programmer")
+            {
+                letter5.Text = "R";
+                letter9.Text = "R";
+            }
+            if (theWord == "semester")
+            {
+                letter8.Text = "R";
+            }
+            if (theWord == "arizona")
+            {
+                letter2.Text = "R";
+            }
+        }
+
+        private void buttonP_Click(object sender, EventArgs e)
+        {
+            if (theWord == "computer")
+            {
+                letter4.Text = "P";
+            }
+            if (theWord == "programmer")
+            {
+                letter1.Text = "P";
+            }
+        }
+
+        private void buttonN_Click(object sender, EventArgs e)
+        {
+            if (theWord == "novelo")
+            {
+                letter1.Text = "N";
+            }
+            if (theWord == "technology")
+            {
+                letter5.Text = "N";
+            }
+            if (theWord == "hangman")
+            {
+                letter3.Text = "N";
+                letter7.Text = "N";
+            }
+        }
+
+        private void buttonM_Click(object sender, EventArgs e)
+        {
+            if (theWord == "computer")
+            {
+                letter3.Text = "M";
+            }
+            if (theWord == "gamer")
+            {
+                letter3.Text = "M";
+            }
+            if (theWord == "programmer")
+            {
+                letter7.Text = "M";
+                letter8.Text = "M";
+            }
+            if (theWord == "hangman")
+            {
+                letter5.Text = "M";
+            }
+            if (theWord == "semester")
+            {
+                letter3.Text = "M";
+            }
+        }
+
+        private void buttonL_Click(object sender, EventArgs e)
+        {
+            if (theWord == "life")
+            {
+                letter1.Text = "L";
+            }
+            if (theWord == "technology")
+            {
+                letter7.Text = "L";
+            }
+            if (theWord == "novelo")
+            {
+                letter5.Text = "L";
+            }
+        }
+
+        private void buttonK_Click(object sender, EventArgs e)
+        {
+            if (theWord == "cookie")
+            {
+                letter4.Text = "K";
+            }
+        }
+
+        private void buttonH_Click(object sender, EventArgs e)
+        {
+            if (theWord == "hangman")
+            {
+                letter1.Text = "H";
+            }
+            if (theWord == "technology")
+            {
+                letter4.Text = "H";
+            }
+        }
+
+        private void buttonG_Click(object sender, EventArgs e)
+        {
+            if (theWord == "gamer")
+            {
+                letter1.Text = "G";
+            }
+            if (theWord == "programmer")
+            {
+                letter4.Text = "G";
+            }
+            if (theWord == "hangman")
+            {
+                letter4.Text = "G";
+            }
+            if (theWord == "technology")
+            {
+                letter8.Text = "G";
+            }
+        }
+
+        private void buttonF_Click(object sender, EventArgs e)
+        {
+            if (theWord == "life")
+            {
+                letter3.Text = "F";
+            }
+        }
+
+        private void buttonU_Click(object sender, EventArgs e)
+        {
+            if (theWord == "computer")
+            {
+                letter5.Text = "U";
+            }
+        }
+
+        private void buttonO_Click(object sender, EventArgs e)
+        {
+            if (theWord == "computer")
+            {
+                letter2.Text = "O";
+            }
+            if (theWord == "programmer")
+            {
+                letter3.Text = "O";
+            }
+            if (theWord == "cookie")
+            {
+                letter2.Text = "O";
+                letter3.Text = "O";
+            }
+            if (theWord == "novelo")
+            {
+                letter2.Text = "O";
+                letter6.Text = "O";
+            }
+            if (theWord == "technology")
+            {
+                letter6.Text = "O";
+                letter8.Text = "O";
+            }
+            if (theWord == "arizona")
+            {
+                letter5.Text = "O";
+            }
+        }
+
+        private void buttonI_Click(object sender, EventArgs e)
+        {
+            if (theWord == "life")
+            {
+                letter2.Text = "I";
+            }
+            if (theWord == "cookie")
+            {
+                letter5.Text = "I";
+            }
+            if (theWord == "arizona")
+            {
+                letter3.Text = "I";
+            }
+        }
+
+        private void buttonE_Click(object sender, EventArgs e)
+        {
+            if (theWord == "computer")
+            {
+                letter7.Text = "E";
+            }
+            if (theWord == "gamer")
+            {
+                letter4.Text = "E";
+            }
+            if (theWord == "programmer")
+            {
+                letter9.Text = "E";
+            }
+            if (theWord == "life")
+            {
+                letter4.Text = "E";
+            }
+            if (theWord == "cookie")
+            {
+                letter6.Text = "E";
+            }
+            if (theWord == "semester")
+            {
+                letter2.Text = "E";
+                letter4.Text = "E";
+                letter7.Text = "E";
+            }
+            if (theWord == "technology")
+            {
+                letter2.Text = "E";
+            }
+        }
+
+        private void buttonC_Click(object sender, EventArgs e)
+        {
+            if (theWord == "computer")
+            {
+                letter1.Text = "C";
+            }
+            if (theWord == "cookie")
+            {
+                letter1.Text = "C";
+            }
+            if (theWord == "technology")
+            {
+                letter3.Text = "C";
+            }
+        }
+
         public hangmanGame()
         {
             InitializeComponent();
+            StartGame();
         }
 
         private void startRound_Click(object sender, EventArgs e)
@@ -97,6 +395,8 @@ namespace Hangman
             line8.Visible = false;
             line9.Visible = false;
             line10.Visible = false;
+
+            StartGame();
         }
 
         public void StartGame()
@@ -314,7 +614,7 @@ namespace Hangman
 
             if (words[index] == "arizona")
             {
-                hint = "A super hot state next to Cali";
+                hint = "A super hot state next to California";
                 theWord = words[index];
                 line1.Visible = true;
                 line2.Visible = true;
@@ -368,5 +668,7 @@ namespace Hangman
                 letter7.Text = "A";
             }
         }
+
+
     }
 }

@@ -114,6 +114,7 @@
             this.buttonC.TabIndex = 3;
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = true;
+            this.buttonC.Click += new System.EventHandler(this.buttonC_Click);
             // 
             // buttonD
             // 
@@ -136,6 +137,7 @@
             this.buttonE.TabIndex = 5;
             this.buttonE.Text = "E";
             this.buttonE.UseVisualStyleBackColor = true;
+            this.buttonE.Click += new System.EventHandler(this.buttonE_Click);
             // 
             // buttonF
             // 
@@ -147,6 +149,7 @@
             this.buttonF.TabIndex = 6;
             this.buttonF.Text = "F";
             this.buttonF.UseVisualStyleBackColor = true;
+            this.buttonF.Click += new System.EventHandler(this.buttonF_Click);
             // 
             // buttonG
             // 
@@ -158,6 +161,7 @@
             this.buttonG.TabIndex = 7;
             this.buttonG.Text = "G";
             this.buttonG.UseVisualStyleBackColor = true;
+            this.buttonG.Click += new System.EventHandler(this.buttonG_Click);
             // 
             // buttonH
             // 
@@ -169,6 +173,7 @@
             this.buttonH.TabIndex = 8;
             this.buttonH.Text = "H";
             this.buttonH.UseVisualStyleBackColor = true;
+            this.buttonH.Click += new System.EventHandler(this.buttonH_Click);
             // 
             // buttonI
             // 
@@ -180,6 +185,7 @@
             this.buttonI.TabIndex = 9;
             this.buttonI.Text = "I";
             this.buttonI.UseVisualStyleBackColor = true;
+            this.buttonI.Click += new System.EventHandler(this.buttonI_Click);
             // 
             // buttonJ
             // 
@@ -202,6 +208,7 @@
             this.buttonK.TabIndex = 11;
             this.buttonK.Text = "K";
             this.buttonK.UseVisualStyleBackColor = true;
+            this.buttonK.Click += new System.EventHandler(this.buttonK_Click);
             // 
             // buttonL
             // 
@@ -213,6 +220,7 @@
             this.buttonL.TabIndex = 12;
             this.buttonL.Text = "L";
             this.buttonL.UseVisualStyleBackColor = true;
+            this.buttonL.Click += new System.EventHandler(this.buttonL_Click);
             // 
             // buttonM
             // 
@@ -224,6 +232,7 @@
             this.buttonM.TabIndex = 13;
             this.buttonM.Text = "M";
             this.buttonM.UseVisualStyleBackColor = true;
+            this.buttonM.Click += new System.EventHandler(this.buttonM_Click);
             // 
             // buttonN
             // 
@@ -235,6 +244,7 @@
             this.buttonN.TabIndex = 14;
             this.buttonN.Text = "N";
             this.buttonN.UseVisualStyleBackColor = true;
+            this.buttonN.Click += new System.EventHandler(this.buttonN_Click);
             // 
             // buttonO
             // 
@@ -246,6 +256,7 @@
             this.buttonO.TabIndex = 15;
             this.buttonO.Text = "O";
             this.buttonO.UseVisualStyleBackColor = true;
+            this.buttonO.Click += new System.EventHandler(this.buttonO_Click);
             // 
             // buttonP
             // 
@@ -257,6 +268,7 @@
             this.buttonP.TabIndex = 16;
             this.buttonP.Text = "P";
             this.buttonP.UseVisualStyleBackColor = true;
+            this.buttonP.Click += new System.EventHandler(this.buttonP_Click);
             // 
             // buttonQ
             // 
@@ -279,6 +291,7 @@
             this.buttonR.TabIndex = 18;
             this.buttonR.Text = "R";
             this.buttonR.UseVisualStyleBackColor = true;
+            this.buttonR.Click += new System.EventHandler(this.buttonR_Click);
             // 
             // buttonS
             // 
@@ -290,6 +303,7 @@
             this.buttonS.TabIndex = 19;
             this.buttonS.Text = "S";
             this.buttonS.UseVisualStyleBackColor = true;
+            this.buttonS.Click += new System.EventHandler(this.buttonS_Click);
             // 
             // buttonT
             // 
@@ -301,6 +315,7 @@
             this.buttonT.TabIndex = 20;
             this.buttonT.Text = "T";
             this.buttonT.UseVisualStyleBackColor = true;
+            this.buttonT.Click += new System.EventHandler(this.buttonT_Click);
             // 
             // buttonU
             // 
@@ -312,6 +327,7 @@
             this.buttonU.TabIndex = 21;
             this.buttonU.Text = "U";
             this.buttonU.UseVisualStyleBackColor = true;
+            this.buttonU.Click += new System.EventHandler(this.buttonU_Click);
             // 
             // buttonV
             // 
@@ -323,6 +339,7 @@
             this.buttonV.TabIndex = 22;
             this.buttonV.Text = "V";
             this.buttonV.UseVisualStyleBackColor = true;
+            this.buttonV.Click += new System.EventHandler(this.buttonV_Click);
             // 
             // buttonW
             // 
@@ -356,6 +373,7 @@
             this.buttonY.TabIndex = 25;
             this.buttonY.Text = "Y";
             this.buttonY.UseVisualStyleBackColor = true;
+            this.buttonY.Click += new System.EventHandler(this.buttonY_Click);
             // 
             // buttonZ
             // 
@@ -367,6 +385,7 @@
             this.buttonZ.TabIndex = 26;
             this.buttonZ.Text = "Z";
             this.buttonZ.UseVisualStyleBackColor = true;
+            this.buttonZ.Click += new System.EventHandler(this.buttonZ_Click);
             // 
             // letterChoices
             // 
@@ -539,91 +558,111 @@
             // letter1
             // 
             this.letter1.AutoSize = true;
-            this.letter1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letter1.Location = new System.Drawing.Point(77, 984);
+            this.letter1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.letter1.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.letter1.Location = new System.Drawing.Point(82, 1019);
             this.letter1.Name = "letter1";
-            this.letter1.Size = new System.Drawing.Size(0, 36);
+            this.letter1.Size = new System.Drawing.Size(0, 39);
             this.letter1.TabIndex = 15;
             // 
             // letter2
             // 
             this.letter2.AutoSize = true;
-            this.letter2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letter2.Location = new System.Drawing.Point(211, 984);
+            this.letter2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.letter2.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.letter2.Location = new System.Drawing.Point(199, 1019);
             this.letter2.Name = "letter2";
-            this.letter2.Size = new System.Drawing.Size(0, 36);
+            this.letter2.Size = new System.Drawing.Size(0, 39);
             this.letter2.TabIndex = 16;
             // 
             // letter3
             // 
             this.letter3.AutoSize = true;
-            this.letter3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letter3.Location = new System.Drawing.Point(306, 966);
+            this.letter3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.letter3.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.letter3.Location = new System.Drawing.Point(315, 1009);
             this.letter3.Name = "letter3";
-            this.letter3.Size = new System.Drawing.Size(0, 36);
+            this.letter3.Size = new System.Drawing.Size(0, 39);
             this.letter3.TabIndex = 17;
             // 
             // letter4
             // 
             this.letter4.AutoSize = true;
-            this.letter4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letter4.Location = new System.Drawing.Point(447, 966);
+            this.letter4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.letter4.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.letter4.Location = new System.Drawing.Point(445, 1019);
             this.letter4.Name = "letter4";
-            this.letter4.Size = new System.Drawing.Size(0, 36);
+            this.letter4.Size = new System.Drawing.Size(0, 39);
             this.letter4.TabIndex = 18;
             // 
             // letter5
             // 
             this.letter5.AutoSize = true;
-            this.letter5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letter5.Location = new System.Drawing.Point(566, 956);
+            this.letter5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.letter5.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.letter5.Location = new System.Drawing.Point(564, 1009);
             this.letter5.Name = "letter5";
-            this.letter5.Size = new System.Drawing.Size(0, 36);
+            this.letter5.Size = new System.Drawing.Size(0, 39);
             this.letter5.TabIndex = 19;
             // 
             // letter6
             // 
             this.letter6.AutoSize = true;
-            this.letter6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letter6.Location = new System.Drawing.Point(683, 984);
+            this.letter6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.letter6.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.letter6.Location = new System.Drawing.Point(683, 1009);
             this.letter6.Name = "letter6";
-            this.letter6.Size = new System.Drawing.Size(0, 36);
+            this.letter6.Size = new System.Drawing.Size(0, 39);
             this.letter6.TabIndex = 20;
             // 
             // letter7
             // 
             this.letter7.AutoSize = true;
-            this.letter7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letter7.Location = new System.Drawing.Point(808, 984);
+            this.letter7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.letter7.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.letter7.Location = new System.Drawing.Point(808, 1009);
             this.letter7.Name = "letter7";
-            this.letter7.Size = new System.Drawing.Size(0, 36);
+            this.letter7.Size = new System.Drawing.Size(0, 39);
             this.letter7.TabIndex = 21;
             // 
             // letter8
             // 
             this.letter8.AutoSize = true;
-            this.letter8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letter8.Location = new System.Drawing.Point(918, 956);
+            this.letter8.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.letter8.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.letter8.Location = new System.Drawing.Point(919, 1012);
             this.letter8.Name = "letter8";
-            this.letter8.Size = new System.Drawing.Size(0, 36);
+            this.letter8.Size = new System.Drawing.Size(0, 39);
             this.letter8.TabIndex = 22;
             // 
             // letter9
             // 
             this.letter9.AutoSize = true;
-            this.letter9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letter9.Location = new System.Drawing.Point(1045, 987);
+            this.letter9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.letter9.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.letter9.Location = new System.Drawing.Point(1045, 1012);
             this.letter9.Name = "letter9";
-            this.letter9.Size = new System.Drawing.Size(0, 36);
+            this.letter9.Size = new System.Drawing.Size(0, 39);
             this.letter9.TabIndex = 23;
             // 
             // letter10
             // 
             this.letter10.AutoSize = true;
-            this.letter10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letter10.Location = new System.Drawing.Point(1156, 987);
+            this.letter10.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.letter10.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letter10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.letter10.Location = new System.Drawing.Point(1156, 1012);
             this.letter10.Name = "letter10";
-            this.letter10.Size = new System.Drawing.Size(0, 36);
+            this.letter10.Size = new System.Drawing.Size(0, 39);
             this.letter10.TabIndex = 24;
             // 
             // hangmanGame
