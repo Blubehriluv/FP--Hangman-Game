@@ -17,6 +17,17 @@ namespace Hangman
             "computer", "gamer", "programmer", "life", "cookie", "hangman", "semester", "novelo", "technology",
             "arizona"
         };
+        
+        public bool compC, compO, compM, compP, compU, compT, compE, compR;
+        public bool gamerG, gamerA, gamerM, gamerE, gamerR;
+        public bool proP, proO, proG, proR, proA, proM, proMM, proE, proR;
+        public bool lifeL, lifeI, lifeF, lifeE;
+        public bool cookC, cookO, cookOO, cookK, cookI, cookE;
+        public bool hangH, hangA, hangN, hangG, hangM, hangA, hangNN;
+        public bool semS, semE, semM, semEE, semSS, semT, semEEE, semR;
+        public bool novN, novO, novL, novE, novL, novOO;
+        public bool tecT, tecE, tecC, tecH, tecN, tecO, tecL, tecOO, tecG, tecY;
+        public bool ariA, ariR, ariI, ariZ, ariO, ariN, ariAA;
 
         private string theWord;
         public string hint;
@@ -53,6 +64,8 @@ namespace Hangman
             if (theWord == "arizona")
             {
                 letter4.Text = "Z";
+                ariZ = true;
+                WinCheck();
             }
         }
 
@@ -61,6 +74,8 @@ namespace Hangman
             if (theWord == "technology")
             {
                 letter10.Text = "Y";
+                tecY = true;
+                WinCheck();
             }
         }
 
@@ -69,6 +84,8 @@ namespace Hangman
             if (theWord == "novelo")
             {
                 letter3.Text = "V";
+                novV = true;
+                WinCheck();
             }
         }
 
@@ -77,14 +94,20 @@ namespace Hangman
             if (theWord == "computer")
             {
                 letter6.Text = "T";
+                compT = true;
+                WinCheck();
             }
             if (theWord == "semester")
             {
                 letter6.Text = "T";
+                semT = true;
+                WinCheck();
             }
             if (theWord == "tech")
             {
                 letter1.Text = "T";
+                tecT = true;
+                WinCheck();
             }
         }
 
@@ -94,6 +117,9 @@ namespace Hangman
             {
                 letter1.Text = "S";
                 letter5.Text = "S";
+                semS = true;
+                semSS = true;
+                WinCheck();
             }
         }
 
@@ -102,23 +128,34 @@ namespace Hangman
             if (theWord == "gamer")
             {
                 letter5.Text = "R";
+                gamerR = true;
+                WinCheck();
             }
             if (theWord == "computer")
             {
                 letter8.Text = "R";
+                compR = true;
+                WinCheck();
             }
             if (theWord == "programmer")
             {
                 letter5.Text = "R";
                 letter9.Text = "R";
+                proR = true;
+                proRR = true;
+                WinCheck();
             }
             if (theWord == "semester")
             {
                 letter8.Text = "R";
+                semR = true;
+                WinCheck();
             }
             if (theWord == "arizona")
             {
                 letter2.Text = "R";
+                ariR = true;
+                WinCheck();
             }
         }
 
@@ -127,10 +164,14 @@ namespace Hangman
             if (theWord == "computer")
             {
                 letter4.Text = "P";
+                compP = true;
+                WinCheck();
             }
             if (theWord == "programmer")
             {
                 letter1.Text = "P";
+                proP = true;
+                WinCheck();
             }
         }
 
@@ -139,15 +180,22 @@ namespace Hangman
             if (theWord == "novelo")
             {
                 letter1.Text = "N";
+                novN = true;
+                WinCheck();
             }
             if (theWord == "technology")
             {
                 letter5.Text = "N";
+                tecN = true;
+                WinCheck();
             }
             if (theWord == "hangman")
             {
                 letter3.Text = "N";
                 letter7.Text = "N";
+                hangN = true;
+                hangNN = true;
+                WinCheck();
             }
         }
 
@@ -156,23 +204,34 @@ namespace Hangman
             if (theWord == "computer")
             {
                 letter3.Text = "M";
+                compM = true;
+                WinCheck();
             }
             if (theWord == "gamer")
             {
                 letter3.Text = "M";
+                gamerM = true;
+                WinCheck();
             }
             if (theWord == "programmer")
             {
                 letter7.Text = "M";
                 letter8.Text = "M";
+                proM = true;
+                proMM = true;
+                WinCheck();
             }
             if (theWord == "hangman")
             {
                 letter5.Text = "M";
+                hangM = true;
+                WinCheck();
             }
             if (theWord == "semester")
             {
                 letter3.Text = "M";
+                semM = true;
+                WinCheck();
             }
         }
 
@@ -181,14 +240,20 @@ namespace Hangman
             if (theWord == "life")
             {
                 letter1.Text = "L";
+                lifeL = true;
+                WinCheck();
             }
             if (theWord == "technology")
             {
                 letter7.Text = "L";
+                tecL = true;
+                WinCheck();
             }
             if (theWord == "novelo")
             {
                 letter5.Text = "L";
+                novL = true;
+                WinCheck();
             }
         }
 
@@ -197,6 +262,8 @@ namespace Hangman
             if (theWord == "cookie")
             {
                 letter4.Text = "K";
+                cookK = true;
+                WinCheck();
             }
         }
 
@@ -205,10 +272,14 @@ namespace Hangman
             if (theWord == "hangman")
             {
                 letter1.Text = "H";
+                hangH = true;
+                WinCheck();
             }
             if (theWord == "technology")
             {
                 letter4.Text = "H";
+                tecH = true;
+                WinCheck();
             }
         }
 
@@ -217,18 +288,26 @@ namespace Hangman
             if (theWord == "gamer")
             {
                 letter1.Text = "G";
+                gamerG = true;
+                WinCheck();
             }
             if (theWord == "programmer")
             {
                 letter4.Text = "G";
+                proG = true;
+                WinCheck();
             }
             if (theWord == "hangman")
             {
                 letter4.Text = "G";
+                hangG = true;
+                WinCheck();
             }
             if (theWord == "technology")
             {
                 letter8.Text = "G";
+                tecG = true;
+                WinCheck();
             }
         }
 
@@ -237,6 +316,8 @@ namespace Hangman
             if (theWord == "life")
             {
                 letter3.Text = "F";
+                lifeF = true;
+                WinCheck();
             }
         }
 
@@ -245,6 +326,8 @@ namespace Hangman
             if (theWord == "computer")
             {
                 letter5.Text = "U";
+                compU = true;
+                WinCheck();
             }
         }
 
@@ -253,29 +336,44 @@ namespace Hangman
             if (theWord == "computer")
             {
                 letter2.Text = "O";
+                compO = true;
+                WinCheck();
             }
             if (theWord == "programmer")
             {
                 letter3.Text = "O";
+                proO = true;
+                WinCheck();
             }
             if (theWord == "cookie")
             {
                 letter2.Text = "O";
                 letter3.Text = "O";
+                cookO = true;
+                cookOO = true;
+                WinCheck();
             }
             if (theWord == "novelo")
             {
                 letter2.Text = "O";
                 letter6.Text = "O";
+                novO = true;
+                novOO = true;
+                WinCheck();
             }
             if (theWord == "technology")
             {
                 letter6.Text = "O";
                 letter8.Text = "O";
+                tecO = true;
+                tecOO = true;
+                WinCheck();
             }
             if (theWord == "arizona")
             {
                 letter5.Text = "O";
+                ariO = true;
+                WinCheck();
             }
         }
 
@@ -284,14 +382,20 @@ namespace Hangman
             if (theWord == "life")
             {
                 letter2.Text = "I";
+                lifeI = true;
+                WinCheck();
             }
             if (theWord == "cookie")
             {
                 letter5.Text = "I";
+                cookI = true;
+                WinCheck();
             }
             if (theWord == "arizona")
             {
                 letter3.Text = "I";
+                ariI = true;
+                WinCheck();
             }
         }
 
@@ -300,32 +404,48 @@ namespace Hangman
             if (theWord == "computer")
             {
                 letter7.Text = "E";
+                compE = true;
+                WinCheck();
             }
             if (theWord == "gamer")
             {
                 letter4.Text = "E";
+                gamerE = true;
+                WinCheck();
             }
             if (theWord == "programmer")
             {
                 letter9.Text = "E";
+                proE = true;
+                WinCheck();
             }
             if (theWord == "life")
             {
                 letter4.Text = "E";
+                lifeE = true;
+                WinCheck();
             }
             if (theWord == "cookie")
             {
                 letter6.Text = "E";
+                cookE = true;
+                WinCheck();
             }
             if (theWord == "semester")
             {
                 letter2.Text = "E";
                 letter4.Text = "E";
                 letter7.Text = "E";
+                semE = true;
+                semEE = true;
+                semEEE = true;
+                WinCheck();
             }
             if (theWord == "technology")
             {
                 letter2.Text = "E";
+                tecE = true;
+                WinCheck();
             }
         }
 
@@ -334,14 +454,20 @@ namespace Hangman
             if (theWord == "computer")
             {
                 letter1.Text = "C";
+                compC = true;
+                WinCheck();
             }
             if (theWord == "cookie")
             {
                 letter1.Text = "C";
+                cookC = true;
+                WinCheck();
             }
             if (theWord == "technology")
             {
                 letter3.Text = "C";
+                tecC = true;
+                WinCheck();
             }
         }
 
@@ -356,6 +482,83 @@ namespace Hangman
             StartGame();
         }
 
+        public void WinCheck()
+        {
+            if (theWord = "computer")
+            {
+                if (compC == true && compO == true && compM == true && compP == true && compU == true && compT == true && compE == true && compR == true)
+                {
+                
+                }
+            }
+            if (theWord = "gamer")
+            {
+                if (gamerG = true && gamerA = true && gamerM = true && gamerE = true && gamerR = true)
+                {
+                
+                }
+            }
+            if (theWord = "programmer")
+            {
+                if (proP = true && proO = true && proG = true && proR = true && proA = true && proM = true && proMM = true && proE = true && proR = true)
+                {
+                
+                }
+            }
+            if (theWord = "life")
+            {
+                if (lifeL = true && lifeI = true && lifeF = true && lifeE = true)
+                {
+                
+                }
+            }
+            if (theWord = "cookie")
+            {
+                if (cookC = true && cookO = true && cookOO = true && cookI = true && cookE = true)
+                {
+                
+                }
+            }
+            if (theWord = "hangman")
+            {
+                if (hangH = true && hangA = true && hangN = true && hangG = true && hangM = true && hangA = true && hangNN = true)
+                {
+                
+                }
+            }
+            if (theWord = "semester")
+            {
+                if (semS = true && semE = true && semM = true && semEE = true && semSS = true && semT = true && semEEE = true && semR = true)
+                {
+                
+                }
+            }
+            if (theWord = "novelo")
+            {
+                if (novN = true && novO = true && novV = true && novE = true && novL = true && novOO = true)
+                {
+                
+                }
+            }
+            if (theWord = "technology")
+            {
+                if (tecT = true && tecE = true && tecC = true && tecH = true && tecN = true && tecO = true && tecL = true && tecOO = true && tecG = true && tecY = true)
+                {
+                
+                }
+            }
+            if (theWord = "arizona")
+            {
+                if (ariA = true && ariR = true && ariI = true && ariZ = true && ariO = true && ariN = true && ariAA = true)
+                {
+                
+                }
+            }
+            else
+            {
+            
+            }
+        }
         public void ResetGame()
         {
             aPresent = false;
