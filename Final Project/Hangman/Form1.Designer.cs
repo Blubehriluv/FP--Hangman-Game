@@ -78,6 +78,12 @@
             this.letter8 = new System.Windows.Forms.Label();
             this.letter9 = new System.Windows.Forms.Label();
             this.letter10 = new System.Windows.Forms.Label();
+            this.wrong1 = new System.Windows.Forms.Label();
+            this.wrong2 = new System.Windows.Forms.Label();
+            this.wrong3 = new System.Windows.Forms.Label();
+            this.wrong4 = new System.Windows.Forms.Label();
+            this.wrong5 = new System.Windows.Forms.Label();
+            this.conGrats = new System.Windows.Forms.Label();
             this.letterChoices.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -538,7 +544,7 @@
             // 
             // hintButton
             // 
-            this.hintButton.Location = new System.Drawing.Point(58, 1192);
+            this.hintButton.Location = new System.Drawing.Point(53, 1143);
             this.hintButton.Name = "hintButton";
             this.hintButton.Size = new System.Drawing.Size(248, 93);
             this.hintButton.TabIndex = 13;
@@ -550,7 +556,7 @@
             // 
             this.hintBox.AutoSize = true;
             this.hintBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hintBox.Location = new System.Drawing.Point(357, 1192);
+            this.hintBox.Location = new System.Drawing.Point(352, 1143);
             this.hintBox.Name = "hintBox";
             this.hintBox.Size = new System.Drawing.Size(0, 32);
             this.hintBox.TabIndex = 14;
@@ -665,12 +671,77 @@
             this.letter10.Size = new System.Drawing.Size(0, 39);
             this.letter10.TabIndex = 24;
             // 
+            // wrong1
+            // 
+            this.wrong1.AutoSize = true;
+            this.wrong1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wrong1.ForeColor = System.Drawing.Color.Red;
+            this.wrong1.Location = new System.Drawing.Point(149, 1337);
+            this.wrong1.Name = "wrong1";
+            this.wrong1.Size = new System.Drawing.Size(0, 32);
+            this.wrong1.TabIndex = 25;
+            // 
+            // wrong2
+            // 
+            this.wrong2.AutoSize = true;
+            this.wrong2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wrong2.ForeColor = System.Drawing.Color.Red;
+            this.wrong2.Location = new System.Drawing.Point(354, 1337);
+            this.wrong2.Name = "wrong2";
+            this.wrong2.Size = new System.Drawing.Size(0, 32);
+            this.wrong2.TabIndex = 26;
+            // 
+            // wrong3
+            // 
+            this.wrong3.AutoSize = true;
+            this.wrong3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wrong3.ForeColor = System.Drawing.Color.Red;
+            this.wrong3.Location = new System.Drawing.Point(573, 1337);
+            this.wrong3.Name = "wrong3";
+            this.wrong3.Size = new System.Drawing.Size(0, 32);
+            this.wrong3.TabIndex = 27;
+            // 
+            // wrong4
+            // 
+            this.wrong4.AutoSize = true;
+            this.wrong4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wrong4.ForeColor = System.Drawing.Color.Red;
+            this.wrong4.Location = new System.Drawing.Point(811, 1337);
+            this.wrong4.Name = "wrong4";
+            this.wrong4.Size = new System.Drawing.Size(0, 32);
+            this.wrong4.TabIndex = 28;
+            // 
+            // wrong5
+            // 
+            this.wrong5.AutoSize = true;
+            this.wrong5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wrong5.ForeColor = System.Drawing.Color.Red;
+            this.wrong5.Location = new System.Drawing.Point(1031, 1337);
+            this.wrong5.Name = "wrong5";
+            this.wrong5.Size = new System.Drawing.Size(0, 32);
+            this.wrong5.TabIndex = 29;
+            // 
+            // conGrats
+            // 
+            this.conGrats.AutoSize = true;
+            this.conGrats.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conGrats.Location = new System.Drawing.Point(379, 71);
+            this.conGrats.Name = "conGrats";
+            this.conGrats.Size = new System.Drawing.Size(0, 36);
+            this.conGrats.TabIndex = 30;
+            // 
             // hangmanGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1962, 1469);
+            this.Controls.Add(this.conGrats);
+            this.Controls.Add(this.wrong5);
+            this.Controls.Add(this.wrong4);
+            this.Controls.Add(this.wrong3);
+            this.Controls.Add(this.wrong2);
+            this.Controls.Add(this.wrong1);
             this.Controls.Add(this.letter10);
             this.Controls.Add(this.letter9);
             this.Controls.Add(this.letter8);
@@ -756,6 +827,12 @@
         private System.Windows.Forms.Label letter8;
         private System.Windows.Forms.Label letter9;
         private System.Windows.Forms.Label letter10;
+        private System.Windows.Forms.Label wrong1;
+        private System.Windows.Forms.Label wrong2;
+        private System.Windows.Forms.Label wrong3;
+        private System.Windows.Forms.Label wrong4;
+        private System.Windows.Forms.Label wrong5;
+        private System.Windows.Forms.Label conGrats;
     }
 }
 
